@@ -4,7 +4,7 @@ use ExtUtils::MakeMaker;
 
 WriteMakefile(
     'NAME'		=> 'Net::SMTP_auth::SSL',
-    'AUTHOR'            => 'Stefan Gipper <stefanos@cpan.org>',
+    'AUTHOR'            => '-',
     'ABSTRACT'          => 'SMTP_AUTH with wrapper for Net::SMTP::SSL (rfc2554)',
     'VERSION_FROM'	=> 'SSL.pm', # finds $VERSION
     'PREREQ_PM'		=> {

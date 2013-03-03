@@ -29,7 +29,7 @@ use MIME::Base64;
 use Digest::HMAC_MD5 qw(hmac_md5_hex);
 use Authen::SASL;
 
-$VERSION = "0.01";
+$VERSION = "0.02";
 
 @ISA = qw(Net::SMTP::SSL);
 
@@ -218,7 +218,7 @@ L<Net::SMTP>, L<Net::SMTP::SSL> and L<Net::Cmd>
 Alex Pleiner <alex@zeitform.de>, zeitform Internet Dienste.
 Thanks to Graham Barr <gbarr@pobox.com> for Net::SMTP.
 NTLM authentication code provided by James Fryman <jfryman@gmail.com>
-SSL Extension as Modul by Stefan Gipper (stefanos@cpan.org)
+SSL Extension as Modul
 
 =head1 COPYRIGHT
 

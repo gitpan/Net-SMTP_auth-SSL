@@ -1,4 +1,7 @@
 Revision history for Perl extension Net::SMTP_auth::SSL.
 
+0.02  03.03.2013
+        - small update
+
 0.01  18.06.2011
         - original version
